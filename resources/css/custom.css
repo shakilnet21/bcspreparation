@@ -14,29 +14,46 @@
   */
 
 body {
-	font-family: 'SolaimanLipi', Arial, sans-serif !important;
+	font-family: 'SolaimanLipi', 'Oswald', Arial, sans-serif !important;
 }
-p{
+/*navMenu Style*/
+#navMenu{}
+#navMenu ul{}
+#navMenu ul.navbar-nav{}
+#navMenu ul .me-auto{}
+#navMenu ul .mb-2{}
+#navMenu ul .mb-lg-0{}
 
-}
-h1{
+#navMenu ul li{}
+#navMenu ul li.nav-item{}
+#navMenu ul li.dropdown{}
 
-}
-h2{
+#navMenu ul li a{}
+#navMenu ul li a.nav-link{}
+#navMenu ul li a.dropdown-toggle{}
 
-}
-h3{
+/*Dropdown*/
+#navMenu ul li ul{}
+#navMenu ul li ul.dropdown-menu{}
+#navMenu ul li ul li{}
+#navMenu ul li ul li a{}
+#navMenu ul li ul li a.dropdown-item{}
 
-}
-h4{
 
-}
-h5{
 
-}
-h6{
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .container {
 	margin-top: 80px;

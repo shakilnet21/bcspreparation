@@ -1,24 +1,87 @@
-<?php 
-/*
-*This template for displaying the header
- */
+<?php get_header();?>
 
-?>
+<!--Content Area-->
+<main class="main container">
+    <div class="row">
+        <div class="col-md-8">
+            <section class="content h-25">
+                <div class="bcs_content">
+                    <div class="bangla_content">
+                            <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-pane fade show" id="bng_content_01" role="tabpanel">
+                                    <h4>০১। প্রয়োগ-অপপ্রয়োগ</h4>
+                                    <div class="accordion" id="accordionQuestion">
+                                        <div class="accordion-item">
+                                          <h5 class="accordion-header" id="bng_content_01_qus_01">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#bng_content_01_ans_01" aria-expanded="true" aria-controls="bng_content_01_ans_01">
+                                                প্রশ্ন:
+                                            </button>
+                                          </h5>
+                                          <div id="bng_content_01_ans_01" class="accordion-collapse collapse" aria-labelledby="bng_content_01_qus_01" data-bs-parent="#accordionQuestion">
+                                            <div class="accordion-body">
+                                                <p>ড. সুনীতিকুমার চট্টোপাধ্যায় বাংলা ভাষায় দু ধরনের ভুলের কথা বলেছেন। <br>
+                                                    ১. বর্ণাশুদ্ধি অর্থাৎ বানানের ভুল। ( যেমন-’নবীন’ এর পরিবর্তে ’নবিন’)<br>
+                                                    ২. পদাশুদ্ধি অর্থাৎ অশুদ্ধ পদের প্রয়োগ। ( যেমন-’লক্ষণীয়’ স্থলে ‘লক্ষ্যণীয়’)<br>
+                                                    এছাড়া আরও কিছু বিষয়ে ভুল প্রয়োগ লক্ষ করা যায়। যেমন-<br>
+                                                    ১. বাক্যে পদবিন্যাসের ত্রুটি<br>
+                                                    ২. সন্ধিঘটিত ত্রুটি<br>
+                                                    ৩. সমাসজনিত ত্রুটি<br>
+                                                    ৪. প্রত্যয়ঘটিত ত্রুটি<br>
+                                                    ৫. সাধু ও চলিত রীতির মিশ্রণজনিত ত্রুটি<br>
+                                                    ৬. উচ্চারণ দোষঘটিত ক্রটি ইত্যাদি
+                                                </p> 
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>               
+                                </div>
+                            </div>                    
+                        </div>                
+                </div>
+            </section>
+        </div>
 
 
 
+        <div class="col-md-4">
+            <section class="sidebar">
+                <div class="bcs_sidebar">
+                    <h3>বিসিএস প্রিলিমিনারি প্রিপারেশন</h3>
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                                    <h2 class="accordion-button bng_child_01" data-bs-target="#bng_child_01" data-bs-toggle="collapse" aria-expanded="false" aria-controls="bng_child_01">বাংলা ভাষা ও
+                                    সাহিত্য_15+20=35</h2>
+        
+                                <div id="bng_child_01" class="accordion-collapse collapse" aria-labelledby="child_01" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <h5>বাংলা ভাষা (নম্বর ১৫)</h5>
+                                        <div class="list-group" id="list-tab" role="tablist">
+                                            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#bng_content_01" role="tab" aria-controls="bangla_content_01">০১। প্রয়োগ-অপপ্রয়োগ </a>
+                                            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#bng_content_02" role="tab" aria-controls="bangla_content_01">০২। বানান ও বাক্যশুদ্ধি </a>
+                                            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#bng_content_03" role="tab" aria-controls="bangla_content_01">০৩। পরিভাষা </a>
+                                            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#bng_content_04" role="tab" aria-controls="bangla_content_01">০৪। সমার্থকশব্দ </a>
+                                            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#bng_content_05" role="tab" aria-controls="bangla_content_01">০৫। বিপরীতশব্দ </a>
+                                            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#bng_content_06" role="tab" aria-controls="bangla_content_01">০৬। ধ্বনি ও বর্ণ </a>
+                                            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#bng_content_07" role="tab" aria-controls="bangla_content_01">০৭। শব্দ </a>
+                                            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#bng_content_08" role="tab" aria-controls="bangla_content_01">০৮। পদ </a>
+                                            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#bng_content_09" role="tab" aria-controls="bangla_content_01">০৯। বাক্য </a>
+                                            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#bng_content_10" role="tab" aria-controls="bangla_content_01">১০। প্রত্যয় </a>
+                                            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#bng_content_11" role="tab" aria-controls="bangla_content_01">১১। সন্ধি </a>
+                                            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#bng_content_12" role="tab" aria-controls="bangla_content_01">১২। সমাস </a>
+                                        <h5>বাংলা সাহিত্য (নম্বর 20)</h5>                               
+                                            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#bng_content_13" role="tab" aria-controls="bangla_content_01">০১। প্রাচীনযুগ </a>
+                                            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#bng_content_14" role="tab" aria-controls="bangla_content_01">০২। মধ্যযুগ </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</main>
 
 
-<!DOCTYPE html>
-<html lang="<?php language_attributes(); ?>" class="no-js">
-<head>
-    <meta charset="<?php bloginfo('charset'); ?>">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <?php wp_head(); ?>
-</head>
-<body <?php body_class(); ?> >
-    
-<?php wp_footer(); ?>
-</body>
-</html>
+<?php get_footer();?>
