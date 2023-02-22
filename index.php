@@ -46,35 +46,20 @@
         <div class="col-md-4">
             <section class="sidebar">
                 <div class="bcs_sidebar">
-                    <h3>বিসিএস প্রিলিমিনারি প্রিপারেশন</h3>
-                    <div class="accordion" id="accordionExample">
+                    <div class="accordion" id="accordionExample">    
                         <div class="accordion-item">
                                     <h2 class="accordion-button bng_child_01" data-bs-target="#bng_child_01" data-bs-toggle="collapse" aria-expanded="false" aria-controls="bng_child_01">বাংলা ভাষা ও
-                                    সাহিত্য_15+20=35</h2>
-        
+                                    সাহিত্য_15+20=35</h2>        
                                 <div id="bng_child_01" class="accordion-collapse collapse" aria-labelledby="child_01" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <h5>বাংলা ভাষা (নম্বর ১৫)</h5>
                                         <div class="list-group" id="list-tab" role="tablist">
                                             <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#bng_content_01" role="tab" aria-controls="bangla_content_01">০১। প্রয়োগ-অপপ্রয়োগ </a>
-                                            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#bng_content_02" role="tab" aria-controls="bangla_content_01">০২। বানান ও বাক্যশুদ্ধি </a>
-                                            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#bng_content_03" role="tab" aria-controls="bangla_content_01">০৩। পরিভাষা </a>
-                                            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#bng_content_04" role="tab" aria-controls="bangla_content_01">০৪। সমার্থকশব্দ </a>
-                                            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#bng_content_05" role="tab" aria-controls="bangla_content_01">০৫। বিপরীতশব্দ </a>
-                                            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#bng_content_06" role="tab" aria-controls="bangla_content_01">০৬। ধ্বনি ও বর্ণ </a>
-                                            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#bng_content_07" role="tab" aria-controls="bangla_content_01">০৭। শব্দ </a>
-                                            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#bng_content_08" role="tab" aria-controls="bangla_content_01">০৮। পদ </a>
-                                            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#bng_content_09" role="tab" aria-controls="bangla_content_01">০৯। বাক্য </a>
-                                            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#bng_content_10" role="tab" aria-controls="bangla_content_01">১০। প্রত্যয় </a>
-                                            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#bng_content_11" role="tab" aria-controls="bangla_content_01">১১। সন্ধি </a>
-                                            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#bng_content_12" role="tab" aria-controls="bangla_content_01">১২। সমাস </a>
-                                        <h5>বাংলা সাহিত্য (নম্বর 20)</h5>                               
-                                            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#bng_content_13" role="tab" aria-controls="bangla_content_01">০১। প্রাচীনযুগ </a>
-                                            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#bng_content_14" role="tab" aria-controls="bangla_content_01">০২। মধ্যযুগ </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
+                         <?php get_sidebar('sidebar-1'); ?>
 
                     </div>
                 </div>
